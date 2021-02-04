@@ -8,7 +8,8 @@ public class addNumbersTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Integer output = Calculator.Add("");
+		assertEquals(0, output);
 	}
 
 }
