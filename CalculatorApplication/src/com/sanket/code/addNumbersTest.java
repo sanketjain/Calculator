@@ -10,6 +10,8 @@ public class addNumbersTest {
 	public void test() {
 		Integer output = Calculator.Add("");
 		assertEquals(0, output);
+		Integer output1 = Calculator.Add("1");
+		assertEquals(1, output1);
 	}
 
 }
